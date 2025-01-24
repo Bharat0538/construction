@@ -9,6 +9,14 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+/*
+{
+  "name": "Kitchen Work",
+  "description": "All types of kitchen modular and non-modular work",
+  "price": 5000
+}
+ */
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/api/services")
 public class ServiceController {

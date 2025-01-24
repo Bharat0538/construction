@@ -9,7 +9,10 @@ import org.springframework.web.bind.annotation.*;
 
 import java.time.LocalDate;
 import java.util.List;
-
+/*
+POST /api/requests?clientId=1&serviceId=1
+PUT /api/requests/1?status=Completed
+ */
 @RestController
 @RequestMapping("/api/requests")
 public class ServiceRequestController {
